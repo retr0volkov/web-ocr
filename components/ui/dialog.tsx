@@ -20,5 +20,5 @@ export function DialogHeader({ children }: { children: ReactNode }) {
 }
 
 export function DialogTitle({ children }: { children: ReactNode }) {
-  return <h2 className="text-lg font-semibold">{children}</h2>;
+  return <h2 className="text-lg font-semibold text-neutral-50">{children}</h2>;
 }

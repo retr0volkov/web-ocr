@@ -31,7 +31,7 @@ export default function Home() {
       reader.readAsDataURL(blob);
     } catch (error) {
       console.error("Не удалось загрузить изображение:", error);
-      alert("Error loading image. Try uploading instead.");
+      alert("Ошибка загрузки изображения. Попробуйте загрузить файлом.");
     }
   };
 
